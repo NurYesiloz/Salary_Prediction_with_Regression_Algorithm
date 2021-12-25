@@ -80,7 +80,7 @@ warnings.simplefilter(action="ignore", category=SettingWithCopyWarning)
 
 #################### Loading the Dataset ####################
 def load_hitters():
-    data = pd.read_csv(r"C:\Users\WIN\OneDrive\Masaüstü\DSMLBC\datasets\hitters.csv")
+    data = pd.read_csv("...hitters.csv")
     return data
 df = load_hitters()
 
